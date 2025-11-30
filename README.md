@@ -9,7 +9,7 @@ Este proyecto de EDA se centra en la extracción, limpieza y visualización de d
 3. **Visualización**
 
 ---
-## 0. Diagrama de proceso
+## 0. Diagrama de proceso de extracción y limpieza
 
 ![Diagrama del proyecto EDA](data/images/EDA_diagram.png)
 
