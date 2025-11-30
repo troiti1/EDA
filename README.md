@@ -1,3 +1,5 @@
+# Alumno: David Troitiño Ruiz  --- EDA PROJECT --- Evolve Academy
+
 # Análisis Exploratorio de Datos (EDA) - Turismo Mundial
 
 Este proyecto de EDA se centra en la extracción, limpieza y visualización de datos turísticos a nivel mundial. El flujo de trabajo se divide en tres etapas principales:
@@ -7,9 +9,10 @@ Este proyecto de EDA se centra en la extracción, limpieza y visualización de d
 3. **Visualización**
 
 ---
-## 1. Diagrama de proceso
+## 0. Diagrama de proceso
 
-![Diagrama del proyecto](../data/images/EDA_diagram.png)
+![Diagrama del proyecto EDA](../data/images/EDA_diagram.png)
+
 
 ## 1. Extracción de datos
 
@@ -91,18 +94,23 @@ El dataset requiere un proceso exhaustivo de limpieza, normalización y enriquec
 
 ## 3. Visualización de datos
 
-Para la visualización se han utilizado librerías como **Matplotlib** y **Seaborn**.  
+Para la visualización de los datos se han utilizado librerías como **Matplotlib** y **Seaborn**, permitiendo generar gráficos claros e intuitivos que facilitan el análisis de tendencias turísticas.
 
-- Las gráficas permiten analizar:  
-  - El impacto del COVID en el turismo global (2020-2022).  
-  - Los países con mayor turismo en los últimos años.  
-  - Meses con menor y mayor número de turistas por país.  
+A partir de estos gráficos se han obtenido una serie de conclusiones relevantes:
 
-- Esta información es útil para:  
-  - Identificar tendencias estacionales y picos de turismo.  
-  - Evitar grandes aglomeraciones de turistas al planificar viajes.
+- **Impacto del COVID en el turismo global (2020-2022):**  
+  Los gráficos muestran claramente la caída drástica de visitantes a nivel mundial durante los años 2020, 2021 y 2022 debido a las restricciones de movilidad y cierres de fronteras. Esta información permite cuantificar el efecto de la pandemia y comparar la recuperación de los distintos países en años posteriores.
 
----
+- **Países con mayor turismo en los últimos años:**  
+  Mediante la agregación y comparación de los datos anuales, se identifican los destinos más visitados. Esto permite no solo conocer qué países reciben más turistas, sino también detectar cambios en tendencias a lo largo del tiempo, como el crecimiento de ciertos destinos emergentes frente a los tradicionales.
 
-**Resumen del flujo de trabajo del proyecto:**
+- **Meses con menor y mayor número de turistas por país:**  
+  El análisis mensual revela patrones estacionales en la llegada de turistas. Esta información permite a cualquier usuario:  
+  - Identificar tendencias estacionales y picos de turismo en cada país.  
+  - Elegir los mejores meses para viajar evitando las épocas de mayor afluencia.  
+  - Planificar viajes más eficientes y confortables, evitando grandes aglomeraciones.  
+  - En un futuro, esta información podría integrarse en un algoritmo que sugiera automáticamente los destinos menos turísticos según las fechas de vacaciones de un usuario, optimizando la experiencia de viaje y reduciendo la congestión en los destinos más populares.
+
+En conjunto, estas visualizaciones no solo facilitan la comprensión de los datos, sino que también aportan valor práctico tanto para análisis estratégicos como para la planificación turística personal.
+
 
