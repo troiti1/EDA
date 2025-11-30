@@ -11,7 +11,7 @@ Este proyecto de EDA se centra en la extracción, limpieza y visualización de d
 ---
 ## 0. Diagrama de proceso
 
-![Diagrama del proyecto EDA](../data/images/EDA_diagram.png)
+![Diagrama del proyecto EDA](data/images/EDA_diagram.png)
 
 
 ## 1. Extracción de datos
